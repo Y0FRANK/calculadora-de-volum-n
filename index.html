@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Frank Sulca</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Volumen de Estructuras</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Calculadora de Volumen de Estructuras</h1>
+    <div class="form-group">
+      <label for="largo">Largo (L):</label>
+      <input type="number" id="largo" placeholder="Ingrese el largo">
+    </div>
+    <div class="form-group">
+      <label for="ancho">Ancho (A):</label>
+      <input type="number" id="ancho" placeholder="Ingrese el ancho">
+    </div>
+    <div class="form-group">
+      <label for="altura">Altura (H):</label>
+      <input type="number" id="altura" placeholder="Ingrese la altura">
+    </div>
+    <button id="calcularBtn" class="btn">Calcular</button>
+    <button id="resetBtn" class="btn">Restablecer</button>
+    <div id="resultado"></div>
+    <div class="canvas-container">
+      <canvas id="graficoValores" width="400" height="255"></canvas>
+      <canvas id="graficoVolumen" width="400" height="255"></canvas>
+    </div>
+    <div id="grafico3D" class="grafico-3d"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
